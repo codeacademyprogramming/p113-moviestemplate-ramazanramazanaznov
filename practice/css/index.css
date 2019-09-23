@@ -1,0 +1,423 @@
+*{
+   font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    padding:0;
+    
+}
+.top-container-left{
+    background-image: url(../image/jokerjpg.jpg);
+    width: 858px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    width: 858px;
+    
+}
+#container{
+    box-sizing: border-box;
+    position: relative;
+    background-color: #081B27 ;
+    height: 3000px;
+}
+.top-container{
+    background-color: black;
+}
+.top-container-left:hover{
+   background-size:cover;
+   transition-duration: 1s;
+ 
+}
+.title{
+    position: absolute;
+    top: 45px;
+    left: 63px;
+}
+.blog{
+    position: absolute;
+    top: 270px;
+    color: white;
+    width: 510px;
+    height: 420px;
+    box-sizing: border-box;
+    margin-left: 70px;
+   
+}
+.number{
+    padding: 5px 7px 3px 5px; 
+    border-radius: 50px;
+    width: 50px;
+    height: 35px;
+    background-color: #F1B722;
+    font-weight:bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: center;
+}
+.blog p{
+
+font-weight: 300;
+letter-spacing: .04em;
+}
+.blog h1{
+font-size: 65px;
+font-weight: 800;
+
+
+}
+.blog li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 10px;
+}
+.blog ul{
+  margin-left: -44px;
+}
+.blog li i{
+    margin-right: 7px;
+    color: rgb(224, 183, 79);
+}
+.blog li a{
+    text-decoration: none;
+}
+.click{
+    position: absolute;
+    margin-top: 25px;
+}
+.click a{
+    text-decoration: none;
+    color: white;
+    font-weight:bold;
+    padding: 10px 23px 10px 23px ;
+    border: 1px solid rgb(80, 76, 76);
+    width: 135px;
+    font-size: 14px;
+    border-radius: 5px;
+    letter-spacing: .09em;
+    
+    
+}
+.click a:hover{
+    background-color: white;
+    color: rgb(34, 33, 33);
+    transition-duration: .6s;
+}
+
+
+.author{
+    display: inline-block;
+    bottom: 0;
+    right: 30px;
+    position: absolute;
+   width: 146px;
+   height: 90px;
+}
+ .name{
+    display: inline-block;
+    width: 80px;
+    font-weight: bold;
+    color: white;
+    font-size: 13px;
+    margin-top: 15px;
+    height: 70px;
+    position: absolute;
+    bottom: 15px;
+    
+}
+.name-pic{
+    display: inline-block;
+    width: 60px;
+    
+}
+.beauty{
+    border-radius: 6px;
+}
+.up{
+    background-image: url(../image/gun.jpg);
+    width: 487px;
+    height: 406px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.down{
+    width: 488px;
+}
+.down .left{
+    background-image: url(../image/girl.jpg);
+    width:243px;
+    height: 294px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+.down .rigth{
+    background-image: url(../image/kitar.jpg);
+    width: 243px;
+    height: 294px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin-left: -4px;
+}
+.top-container-rigth{
+    display: inline-block;
+    width: 480px;
+    vertical-align: top;
+    margin-left: -2px;
+    right: 0;
+    background-origin: padding-box;
+    
+}
+.blog2{
+    width: 310px;
+    height: 206;
+    top: 150px;
+    right: 130px;
+    position: absolute;
+    box-sizing: border-box;
+   
+
+}
+.blog2 h1{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-weight: 800;
+}
+.blog2 li{
+    list-style: none;
+    display: inline-block;
+    color: white;
+    
+}
+.blog2 ul{
+    margin-left:-33px;
+    margin-top: 30px;
+}
+.blog2 i{
+    color: rgb(224, 183, 79);
+    margin-right: 5px;
+    margin-right: 6px;
+}
+.blog2 a{
+   color: white;
+    text-decoration: none;
+    font-weight:bold;
+    padding: 10px 23px 10px 23px ;
+    border: 1px solid rgb(80, 76, 76);
+    width: 135px;
+    font-size: 14px;
+    border-radius: 5px;
+    letter-spacing: .09em;
+}
+.click2{
+   color: white;
+    margin-top: 30px;
+    display: inline-block;
+}
+.click2 a:hover{
+    background-color: white;
+    color: rgb(34, 33, 33);
+    transition-duration: .6s;
+}
+.blog2 .number{
+font-size: 13px;
+color: white;
+padding-top: 10px;
+}
+
+.name2{
+    display: inline-block;
+    width: 80px;
+    font-weight: bold;
+    color: white;
+    font-size: 13px;
+    margin-top: 10px;
+    height: 70px;
+    position: absolute;
+    bottom: 15px;
+    
+}
+.name-pic2{
+    display: inline-block;
+    width: 60px;
+    margin-bottom: 10px;
+}
+.author2{
+    height: 100px;
+    right: 20px;
+   display: inline-block;
+   margin-left: 70px;
+}
+.blog3{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 39px;
+    width: 190px;
+}
+.blog3 h1{
+    color: white;
+    font-weight: bold;
+    font-size:34px;
+    font-weight:750;
+}
+.blog3 li{
+    list-style: none;
+    display: inline-block;
+    color: white;
+
+}
+.blog3 ul{
+margin-left: -30px;
+}
+.number1{
+    padding: 5px 7px 3px 5px; 
+    border-radius: 50px;
+    width: 40px;
+    height: 30px;
+    background-color: #F1B722;
+    font-weight:bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: center;
+color: white;
+font-size: 13px;
+}
+.blog3 i{
+    margin-right: 8px;
+    margin-right: 5px;
+}
+/*start man*/
+
+
+/* .main{
+    background-color: #081B27;
+    height:500px; 
+} */
+.navigation  {
+    background-color: #0C2738;
+    padding-top: 23px;
+    padding-bottom: 15px;
+  margin-top: -7px;
+  position: sticky;
+  top: 0;
+ 
+}
+.navigation li{
+    display: inline-block;
+     list-style: none;
+   
+     
+}
+
+.navigation a{
+   
+    text-decoration: none;
+    padding: 8px 30px;
+    color: #899EAD;
+    font-weight: bold;
+    
+    
+}
+.logoo{
+    margin-left: 45px;
+    margin-right: 180px;
+}
+.navigation .one {
+    border-bottom: 2px solid rgb(189, 139, 12);
+    color: white;
+}
+
+.main{
+    background-color: #081B27;
+    width: 1080px;
+    color: white;
+  margin-left:120px; 
+  margin-bottom: 150px;
+  
+  
+
+}
+.main h1{
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 70px;
+    margin-bottom: 7px;
+}
+.main p{
+color: #899EAD;
+}
+.main a{
+    text-decoration: none;
+    padding: 10px;
+    color: #899EAD;
+
+}
+
+.main li{
+    list-style: none;
+    display: inline-block;
+    background-color: #0C2738;
+    border-radius: 27px;
+    padding: 13px;
+    margin-right: 7px;
+}
+.main ul{
+    position: absolute;
+    right: 0;
+    top: 880px;
+    right: 175px;
+}
+.different li {
+    background-color: white;
+  
+}
+.pic img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+   
+    
+border-bottom-left-radius:6px;
+border-bottom-right-radius:6px;
+border-top-left-radius:6px;
+border-top-right-radius:6px;
+
+}
+.blogs .blog1{
+display: inline-block;
+width: 23%;
+margin-right: 15px;
+}
+.blogs{
+    margin-top: 90px;
+}
+.blog1 a {
+margin-left: -10px;
+text-decoration: #899EAD underline;
+}
+.pic{
+    margin-bottom: 22px;
+}
+.blog1 h5{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.blog1 i{
+    color: rgb(138, 105, 23);
+    margin-right: 5px;
+}
+
+.main2 img{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image:
+    
+}
